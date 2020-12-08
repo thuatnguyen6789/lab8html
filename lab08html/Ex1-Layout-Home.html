@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex1_Layout_Home</title>
+    <style type="text/css">
+        body {
+            border: 1px solid;
+            width: 800px;
+            height: 450px;
+            margin: auto;
+            padding: 1px;
+        }
+        #main {
+            border: 1px solid;
+            width: 798px;
+            height: 448px;
+            margin: auto;
+        }
+        #main #logo {
+            width: 700px;
+            height: 80px;
+            margin: auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+        #main #menu {
+            width: 600px;
+            height: 50px;
+            border-top: 2px solid;
+            border-bottom: 1px solid;
+            margin: auto;
+            font-family: "Courier New", Courier, monospace;
+        }
+        #main #menu ul li {
+            list-style: none;
+            float: left;
+        }
+        #main #menu ul li a {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+        }
+        #main #menu ul li a:hover {
+            color: red;
+        }
+        #main #menu ul li a.active {
+            text-decoration: none;
+            color: red;
+        }
+        #main #picture {
+            width: 600px;
+            height: 100px;
+            margin: auto;
+            padding-top: 10px;
+            text-align: center;
+        }
+        #main #subscribe {
+            width: 600px;
+            margin: auto;
+            padding-top: 50px;
+            text-align: center;
+            line-height: 20px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="logo">
+        <img src="../Image HTML/logo.css1.gif" height="50" width="100"/>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="#" title="home" class="active">HOME</a></li>
+            <li><a href="#" title="for sale">FOR SALE</a></li>
+            <li><a href="#" title="repairs">REPAIRS</a></li>
+            <li><a href="#" title="about">ABOUT</a></li>
+            <li><a href="#" title="contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <div id="picture">
+        <img src="../Image HTML/keys.jpg" height="150" width="600"/>
+    </div>
+    <div id="subscribe">
+        <p>We specialize in the sale and repair of classic keyboards, in
+            <br>particular the Fender Rhodes, Wurlitzer EP200, and Hohner
+            <br>Clavinet.</p>
+    </div>
+</div>
+</body>
+</html>
